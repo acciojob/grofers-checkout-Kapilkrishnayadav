@@ -13,7 +13,7 @@ const getSum = () => {
 }
 const totalSum=document.querySelector("table");
 totalSum.innerHTML+=`<tr>
-      <td>${sum}</td>
+      <td id="ans">${sum}</td>
     </tr>`
   
 };
